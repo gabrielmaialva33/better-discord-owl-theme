@@ -1,0 +1,9 @@
+{
+  "name": "Omni Owl Theme",
+  "description": "🧛🏻‍♂️ Dark Owl theme for all the things",
+  "version": "1.0.0",
+  "author": "Gabriel Maia",
+  "theme": "/OmniOwl.theme.css",
+  "license": "MIT",
+  "consent": "true"
+}

@@ -2,7 +2,7 @@
  * @name Omni Owl Theme
  * @author Gabriel Maia
  * @authorId gabrielmaialva33
- * @version 1.0.2
+ * @version 1.0.3
  * @description 🦉 Omni Owl theme for BetterDiscord
  * @source https://github.com/gabrielmaialva33/better-discord-owl-theme
 **/
@@ -219,6 +219,18 @@ code {
 /** New  */
 .themed-Hp1KC_ {
     background-color: var(--owl-background) !important;
+}
+
+.content-2hZxGK {
+    background-color: var(--owl-color0) !important;
+}
+
+.primaryButton-361sHl {
+    background-color: var(--owl-green) !important;    
+}
+
+.secondaryButton-rBY2Kw {
+    background-color: var(--owl-color9) !important;
 }
 
 span.hljs-built_in {

@@ -201,6 +201,11 @@ code {
     color: var(--owl-foreground) !important;
 }
 
+/** New  */
+.themed-Hp1KC_ {
+    background-color: var(--owl-background) !important;
+}
+
 span.hljs-built_in {
     color: var(--owl-purple) !important;
 }

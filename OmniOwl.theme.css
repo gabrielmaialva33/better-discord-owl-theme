@@ -1,10 +1,262 @@
 /**
  * @name Omni Owl Theme
  * @author Gabriel Maia
- * @authorId ganrielmaialva33
- * @version 1.0.1
+ * @authorId gabrielmaialva33
+ * @version 1.0.2
  * @description 🦉 Omni Owl theme for BetterDiscord
  * @source https://github.com/gabrielmaialva33/better-discord-owl-theme
 **/
+:root {
+    /* Owl Base Colors */
+    --owl-background: #13111B !important;
+    --owl-current-line: #13111B !important;
+    --owl-selection: #41414D !important;
+    --owl-foreground: #E1E1E6 !important;
+    --owl-comment: #746699 !important;
+    --owl-cyan: #988bc7 !important;
+    --owl-green: #67e480 !important;
+    --owl-orange: #E89E64 !important;
+    --owl-pink: #FF79C6 !important;
+    --owl-purple: #78D1E1 !important;
+    --owl-red: #E96379 !important;
+    --owl-yellow: #e7de79 !important;
+    /* Owl ANSI Colors */
+    --owl-color0: #201B2D !important;
+    --owl-color1: #FF79C6 !important;
+    --owl-color2: #67e480 !important;
+    --owl-color3: #e7de79 !important;
+    --owl-color4: #78D1E1 !important;
+    --owl-color5: #988bc7 !important;
+    --owl-color6: #A1EFE4 !important;
+    --owl-color7: #E1E1E6 !important;
+    --owl-color8: #626483 !important;
+    --owl-color9: #ed4556 !important;
+    --owl-color10: #00F769 !important;
+    --owl-color11: #e7de79 !important;
+    --owl-color12: #78D1E1 !important;
+    --owl-color13: #988bc7 !important;
+    --owl-color14: #A4FFFF !important;
+    --owl-color15: #F7F7FB !important;
+    /* Owl Other Colors */
+    --owl-line-highlight: #44475A75 !important;
+    --owl-non-text: #FFFFFF1A !important;
+    --owl-white: #E1E1E6 !important;
+    --owl-tab-drop-background: #44475A70 !important;
+    --owl-background-lighter: #3c3550;
+    --owl-background-alt: #201B2D !important;
 
-@import url("https://raw.githubusercontent.com/gabrielmaialva33/better-discord-owl-theme/master/base.css");
+    /* Discord Root Colors */
+    --header-primary: var(--owl-foreground) !important;
+    --background-primary: var(--owl-background) !important;
+    --background-secondary: var(--owl-background) !important;
+    --background-mobile-primary: var(--owl-background) !important;
+    --background-mobile-secondary: var(--owl-background) !important;
+    --background-secondary-alt: var(--owl-background) !important;
+    --background-tertiary: var(--owl-background-alt) !important;
+    --background-accent: var(--owl-current-line) !important;
+    --background-floating: var(--owl-background) !important;
+    --background-modifier-selected: var(--owl-current-line) !important;
+    --activity-card-background: var(--owl-background) !important;
+    --interactive-normal: var(--owl-foreground) !important;
+    --channeltextarea-background: var(--owl-selection) !important;
+    --rs-online-color: var(--owl-green) !important;
+    --rs-idle-color: var(--owl-orange) !important;
+    --rs-dnd-color: var(--owl-red) !important;
+    --rs-offline-color: var(--owl-selection) !important;
+    --rs-streaming-color: var(--owl-purple) !important;
+    --rs-invisible-color: var(--owl-comment) !important;
+    --interactive-muted: var(--owl-comment) !important;
+    --scrollbar-auto-thumb: var(--owl-comment) !important;
+    --scrollbar-auto-track: var(--owl-background-alt) !important;
+    --scrollbar-thin-thumb: var(--owl-comment) !important;
+    --scrollbar-auto-scrollbar-color-thumb: var(--owl-comment) !important;
+    --scrollbar-auto-scrollbar-color-track: var(
+            --owl-background-alt
+    ) !important;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: var(--owl-comment) !important;
+}
+
+/* Home */
+.container-2cd8Mz {
+    background-color: var(--owl-background) !important;
+}
+
+/* Autocomplete popup */
+.autocomplete-3NRXG8 {
+    background-color: var(--owl-background) !important;
+}
+
+.autocomplete-3jLKbj {
+    background-color: var(--owl-background) !important;
+}
+
+/* Autocomplete popup selection */
+.selected-3H3-RC {
+    background-color: var(--owl-selection) !important;
+}
+
+/* Scroll Bar */
+.theme-dark
+.scrollerThemed-2oenus.themedWithTrack-q8E3vB
+.scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: var(--owl-selection) !important;
+    border: 10px solid var(--owl-background) !important;
+    border-radius: 8px !important;
+}
+
+/* Outlines */
+.scroller-kQBbkU,
+.form-3gdLxP,
+.members-3WRCEx,
+.scroller-1ox3I2,
+.panels-3wFtMD,
+.scroller-3X7KbA,
+.container-ZMc96U.themed-Hp1KC_,
+.header-3OsQeK,
+.searchBar-zdmu7v,
+.scroller-2LSbBU,
+.searchBar-3TnChZ,
+.peopleColumn-1wMU14,
+.container-3u6dG-,
+.scroller-9moviB,
+.nowPlayingColumn-1eCBCN,
+.header-2V-4Sw,
+.contentRegion-3HkfJJ {
+    border-color: var(--owl-current-line) !important;
+    border-style: solid !important;
+}
+
+/* Settings Content Pane */
+.contentRegion-3HkfJJ {
+    border-width: 0 0 0 1px !important;
+}
+
+/* Chat */
+.scroller-kQBbkU {
+    border-width: 1px 1px 0 1px !important;
+}
+
+/* Message Box */
+.form-3gdLxP {
+    border-width: 0 1px 1px !important;
+}
+
+/* Message Box */
+.scrollableContainer-15eg7h {
+    background-color: var(--owl-color0) !important;
+}
+
+/** Shared Screen */
+.modalSize-3WSXDU {
+    background-color: var(--owl-color0) !important;
+}
+
+.footerSeparator-VzAYwb {
+    background-color: var(--owl-color0) !important;
+}
+
+
+/* Member List */
+.members-3WRCEx {
+    border-width: 1px 1px 1px 0 !important;
+}
+
+/* Channel List */
+.scroller-1ox3I2 {
+    border-width: 1px 0 0 0 !important;
+}
+
+/* User Area */
+.panels-3wFtMD {
+    border-width: 1px 0 1px 0 !important;
+}
+
+/* Guild List */
+.scroller-3X7KbA {
+    border-width: 1px !important;
+}
+
+/* Channel Header */
+.container-ZMc96U.themed-Hp1KC_ {
+    border-width: 1px 1px 0 0 !important;
+}
+
+/* Guild Header */
+.header-3OsQeK {
+    border-width: 1px 0 0 0 !important;
+}
+
+/* Search Bar */
+.searchBar-zdmu7v {
+    border-width: 1px !important;
+}
+
+.searchBar-3TnChZ {
+    border-width: 1px 0 0 0 !important;
+}
+
+/* People, Game Library, Nitro */
+.peopleColumn-1wMU14,
+.container-3u6dG-,
+.scroller-9moviB {
+    border-width: 1px !important;
+}
+
+/* Now Playing Column */
+.nowPlayingColumn-1eCBCN {
+    border-width: 1px 1px 1px 0 !important;
+}
+
+/* Syntax Highlighing in Code Blocks*/
+code {
+    color: var(--owl-foreground) !important;
+}
+
+/** New  */
+.themed-Hp1KC_ {
+    background-color: var(--owl-background) !important;
+}
+
+span.hljs-built_in {
+    color: var(--owl-purple) !important;
+}
+
+span.hljs-keyword {
+    color: var(--owl-pink) !important;
+}
+
+span.hljs-title {
+    color: var(--owl-cyan) !important;
+}
+
+span.hljs-attr {
+    color: var(--owl-foreground) !important;
+}
+
+span.hljs-string {
+    color: var(--owl-yellow) !important;
+}
+
+span.hljs-number {
+    color: var(--owl-purple) !important;
+}
+
+span.hljs-symbol {
+    color: var(--owl-orange) !important;
+}
+
+span.hljs-meta {
+    color: var(--owl-foreground) !important;
+}
+
+span.hljs-meta-keyword {
+    color: var(--owl-pink) !important;
+}
+
+span.hljs-meta-string {
+    color: var(--owl-orange) !important;
+}

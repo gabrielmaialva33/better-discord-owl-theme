@@ -37,4 +37,3 @@ All instructions can be found at [INSTALL.md](./INSTALL.md).
 ## License
 
 [MIT License](./LICENSE)
-cp 
